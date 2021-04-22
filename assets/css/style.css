@@ -20,3 +20,41 @@
   .nav-item {
       font-size:larger;
   }
+
+  .section-heading1 {
+      vertical-align: top;
+      /*text-align: top;*/
+      margin-top: 10px;
+  }
+
+  .border-blk {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+  }
+  
+  .border-red {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+  }
+  
+  .border-lightgray {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+  }
+  
+  .border-grn {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-radius: 2px;
+  }
+  
+
+
