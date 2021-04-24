@@ -1,15 +1,24 @@
 
+var projNames = [
+    "01-Horiseon-Refactor",
+    "03-SecPassGen",
+    "04-Quiz",
+    "05-Calendar",
+    "06-Simple-Weather",
+    "Open-Road-Travel-Agency"
+  ]
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
     var projList = document.querySelector("#proj-list");  // ul
-    console.log(cardHtml(0));
-    projList.append(cardHtml(0));   
+    var html = "";
+    for (var i=0; i<projNames.length; i++) {
+        html += cardHtml(i)
+    }
+    projList.innerHTML = html;
   });
-
-  var projNames = [
-      "01-Horiseon-Refactor"
-  ]
 
 cardHtml = function (i) {
     var html;
