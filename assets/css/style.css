@@ -27,6 +27,10 @@
       margin-top: 10px;
   }
 
+  img {
+      height: 250px;
+  }
+
   .border-blk {
     border-top: 1px solid black;
     border-right: 1px solid black;
@@ -35,10 +39,20 @@
   }
   
   .border-red {
+      border: 2px solid red;
+      /*
     border-top: 1px solid red;
     border-right: 1px solid red;
     border-bottom: 1px solid red;
     border-left: 1px solid red;
+    */
+  }
+  
+  .border-blue {
+    border-top: 2px solid blue;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
   }
   
   .border-lightgray {
@@ -49,12 +63,20 @@
   }
   
   .border-grn {
-    border-top: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
+    border-top: 2px solid lightgreen;
+    border-right: 2px solid lightgreen;
+    border-bottom: 2px solid lightgreen;
+    border-left: 2px solid lightgreen;
     border-radius: 2px;
   }
   
+  
+  .border-grn {
+    border-top: 2px solid lightgreen;
+    border-right: 2px solid lightgreen;
+    border-bottom: 2px solid lightgreen;
+    border-left: 2px solid lightgreen;
+    border-radius: 2px;
+  }
 
 

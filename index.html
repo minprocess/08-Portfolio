@@ -14,108 +14,90 @@
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <nav class="grey lighten-1" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="#" class="brand-logo black-text">Logo</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#home" class="nav-item black-text">home</a></li>
-            <li><a href="#projects" class="nav-item black-text">projects</a></li>
-            <li><a href="#resume" class="nav-item black-text">resume</a></li>
-          </ul>
-    
-          <ul id="nav-mobile" class="sidenav">
-            <li><a href="#home" class="nav-item black-text">home</a></li>
-            <li><a href="#projects" class="nav-item black-text">projects</a></li>
-            <li><a href="#resume" class="nav-item black-text">resume</a></li>
-          </ul>
-          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-    <section id="about" class="home-section wg-about">
-        <div class="container">
-          <div class="row">
-              <div class="col-12 col-lg-4">
-                  <div class="profile">
-                    Profile
-                  </div>
-              </div>
-              <div class="col-12 col-lg-8">
-                  <h1>Biography</h1>
-                  <p>
-                      I spent 35+ years in industry programming Windows programs for simulation, estimation and optimization of mineral processing operations.
-                  </p>
-                  <p>
-                      I have a Ph.D. in Metallurgical Engineering and upon obtaining that I spent 10 years programming real-time estimation programs for mineral processing as well programming estimation algorthims for estimation of model parameters from lab and plant testwork. I programmed them first in Fortran and then in C++. Then I spent another 15 years programming dynamic simulators for mineral processing plants. They could be used for sizing equipment given the failure rates of equipment and the time to repair them.
-                  </p>
-                  <p>
-                      Now I have learned a different type of programming, that of full stack flex developer and will be looking to find freelance work.
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>Interests</h3>
-                    <ul class="ul-interest">
-                        <li>Programming</li>                      
-                    </ul>
-                </div>
-                <div class="col-md-7">
-                    <h3>Education</h3>
-                    <ul class="ul-interest">
-                        <li>Ph.D. Metallurgical Engineering, University of Utah</li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-    </section>
+    <nav class="teal lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo black-text">Logo</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home" class="nav-item black-text">home</a></li>
+          <li><a href="#projects" class="nav-item black-text">projects</a></li>
+          <li><a href="#resume" class="nav-item black-text">resume</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#home" class="nav-item black-text">home</a></li>
+          <li><a href="#projects" class="nav-item black-text">projects</a></li>
+          <li><a href="#resume" class="nav-item black-text">resume</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
 
-    <!-- Projects linked with cards -->
-    <section>
+    <section id="about">
       <div class="container">
-        <div class="row section-heading">
-          <div class="col s12 l12 alignCenter border-red">
-              <h2 class="section-heading1">Projects</h2>
-          </div>
-        </div>
-          <div class="row section-heading" id="proj-list">
+        <div class="row">
+          <div class="col s12 l8">
+            <h2>About me</h2>
+            <p>
+                I spent 35+ years in industry programming Windows programs for simulation, estimation and optimization of mineral processing operations.
+            </p>
+            <p>
+                I have a Ph.D. in Metallurgical Engineering and upon obtaining that I spent 10 years programming real-time estimation programs for mineral processing as well programming estimation algorthims for estimation of model parameters from lab and plant testwork. I programmed them first in Fortran and then in C++. Then I spent another 15 years programming dynamic simulators for mineral processing plants. They could be used for sizing equipment given the failure rates of equipment and the time to repair them.
+            </p>
+            <p>
+                Now I have learned a different type of programming, that of full stack flex developer and will be looking to find freelance work.
+            </p>
           </div>
         </div>
       </div>
-  </section>
-
-
-    <section>
-        <div class="container">
-            <div class="row section-heading">
-                <div class="col s3 border-red">
-                    <h1 class="section-heading1">Projects</h1>
-                </div>
-                <div class="col-12 col-lg-8">
-                  <div class="row">
-                      <div class="col-6 col-md-4 col-s2">
-                          <h2>yoda</h2>
-                          <p>Personal assistance</p>
-                          <btn>Code</btn>
-                      </div>
-                      <div class="col-3 col-s1">
-                          image of yoda
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-6 col-md-4 col-s2">
-                        <h2>yoda</h2>
-                        <p>Personal assistance</p>
-                        <btn>Code</btn>
-                    </div>
-                    <div class="col s1">
-                        <a href="https://minprocess.github.io/01-Horiseon-Refactor/"> <img alt="image of yoda which is link to Horiseon-Refactor project" src="./assets/images/yoda.png"></a>
-                    </div>
-
-                  </div>
-                </div>
-            </div>
-        </div>
     </section>
+
+    <!-- Projects linked with cards -->
+    <section id="Projects">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l12 border-red">
+              <h2 class="alignCenter">Projects</h2>
+          </div>
+        </div>
+          <div class="row" id="proj-list">
+            <!-- Cards with projects go here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="Projects-2">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l12 alignCenter border-red">
+            <h1 class="section-heading1">Projects 2</h1>
+        </div>
+
+        <!-- projects -->
+        <div class="row border-blue">
+          <div class="col l6 m4 s2 border-black">
+            <h2>yoda</h2>
+            <p>Personal assistance</p>
+            <btn>Code</btn>
+          </div>
+          <div class="col s1 m3">
+            image of yoda
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-4 col-s2">
+            <h2>yoda</h2>
+            <p>Personal assistance</p>
+            <btn>Code</btn>
+          </div>
+          <div class="col s1">
+            <a href="https://minprocess.github.io/01-Horiseon-Refactor/"> <img alt="image of yoda which is link to Horiseon-Refactor project" src="./assets/images/yoda.png"></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
