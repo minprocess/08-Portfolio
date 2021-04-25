@@ -16,6 +16,15 @@ var projNames = [
     "Open-Road-Travel-Agency"
   ]
 
+  const projDesc = [
+    "Refactor a website for social media and SEO company.",
+    "Generate a password containing random characters. Can be customized.",
+    "Quiz about JavaScript. Has a timer. Score is calculated from the time left on timer.",
+    "Simple daily planner",
+    "Weather app with current temperature and 5 day forecast. Uses OpenWeatherMap API",
+    "Open Road Travel Agency website with a little bit of Covid-19 info. MVP"
+  ]
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -37,7 +46,7 @@ cardHtml = function (i) {
       </div>
       <div class="card-content">
         <span class="card-title">${projNames[i]}</span>
-        <p>Refactor a website for social media and SEO company.</p>
+        <p>${projDesc[i]}</p>
       </div>
       <div class="card-action">
         <a href="https://github.com/minprocess/${folderNames[i]}">Code</a>
