@@ -44,4 +44,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Tests
-Click on links. Do they work?
+Click on links. Do they work?<br>
+Click on link to web page on a phone. Does the menu work?<br>
