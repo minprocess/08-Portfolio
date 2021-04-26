@@ -48,6 +48,7 @@ var projNames = [
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
+    
     var projList = document.querySelector("#proj-list");  // ul
     var html = "";
     for (var i=0; i<projNames.length; i++) {
