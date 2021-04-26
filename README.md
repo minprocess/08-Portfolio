@@ -16,9 +16,11 @@ Page: https://github.com/minprocess/08-Portfolio
 <br>
 
 ## Credits
+There were several BCS assistants that help me find the problems in my code. I owe them a lot of thanks. I don't have enough time before deadline to list them. Next time. Here are the contributions from web sites.
 Font Awesome (https://fontawesome.com)<br>
 MaterialCSS (https://materialcss.com)<br>
-jQuery (https://jquery.com)
+jQuery (https://jquery.com)<br>
+cdnjs (https://https://cdnjs.com/)<br>
 
 ## License
 Copyright (c) [2021] [William T Pate]
