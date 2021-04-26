@@ -42,7 +42,7 @@ cardHtml = function (i) {
     html = `<div class="col s12 l4">
     <div class="card">
       <div class="card-image">
-        <img src="./assets/images/${folderNames[i]}.png">
+        <img href="https://minprocess.github.io/${folderNames[i]}" src="./assets/images/${folderNames[i]}.png">
       </div>
       <div class="card-content">
         <span class="card-title">${projNames[i]}</span>
