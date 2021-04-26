@@ -3,12 +3,6 @@
 ## Description
 Portfolio of the web pages I programmed myself or as part of a team. I used MaterializeCSS. It is mobile responsive.
 
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 ## Installation
 This web page has a single html file, a single css file and a single js file. MaterialCSS and jQuery are linked to a CDN website. No APIs are used.
 ## Usage
