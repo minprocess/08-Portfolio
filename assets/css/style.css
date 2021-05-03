@@ -26,56 +26,42 @@
       /*text-align: top;*/
       margin-top: 10px;
   }
-
+  .card .card-image img {
+    height: 100%;
+  }
+  /*
   img {
       height: 250px;
   }
-
+*/
   .border-blk {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-  }
-  
-  .border-red {
-      border: 2px solid red;
-      /*
-    border-top: 1px solid red;
-    border-right: 1px solid red;
-    border-bottom: 1px solid red;
-    border-left: 1px solid red;
-    */
-  }
-  
-  .border-blue {
-    border-top: 2px solid blue;
-    border-right: 2px solid blue;
-    border-bottom: 2px solid blue;
-    border-left: 2px solid blue;
-  }
-  
-  .border-lightgray {
-    border-top: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-  }
-  
-  .border-grn {
-    border-top: 2px solid lightgreen;
-    border-right: 2px solid lightgreen;
-    border-bottom: 2px solid lightgreen;
-    border-left: 2px solid lightgreen;
+    border: 1px solid black;
     border-radius: 2px;
   }
   
+  /* These borders used to make boxes on web page visible */
+  .border-red {
+      border: 2px solid red;
+      border-radius: 2px;
+    }
+  
+  .border-blue {
+    border: 2px solid blue;
+    border-radius: 2px;
+  }
+  
+  .border-lightgray {
+    border: 2px solid lightgray;
+    border-radius: 2px;
+  }
   
   .border-grn {
-    border-top: 2px solid lightgreen;
-    border-right: 2px solid lightgreen;
-    border-bottom: 2px solid lightgreen;
-    border-left: 2px solid lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 2px;
+  }
+  
+  .border-darkgrn {
+    border: 2px solid darkgreen;
     border-radius: 2px;
   }
 

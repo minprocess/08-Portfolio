@@ -1,7 +1,7 @@
 # 08-Portfolio
 
 ## Description
-Portfolio of the web pages I programmed myself or as part of a team. I used MaterializeCSS for this page. It is supposed to mobile responsive.
+Portfolio of the web pages I programmed myself or as part of a team. I used MaterializeCSS for this page. It is supposed to be mobile responsive but there is some fixup needed.
 
 ## Installation
 This web page has a single html file, a single css file and a single js file. MaterialCSS and jQuery are linked with the CDN website, <cdnjs> (https://cdnjs.com). No APIs are used.
@@ -17,7 +17,7 @@ Page: https://github.com/minprocess/08-Portfolio
 
 ## Credits
 There were several BCS assistants that help me find the problems in my code. I owe them a lot of thanks. I don't have enough time before deadline to list them. Next time. Here are the contributions from web sites.
-Font Awesome (https://fontawesome.com)<br>
+FontAwesome (https://fontawesome.com)<br>
 MaterialCSS (https://materialcss.com)<br>
 jQuery (https://jquery.com)<br>
 cdnjs (https://https://cdnjs.com/)<br>
