@@ -26,14 +26,17 @@
       /*text-align: top;*/
       margin-top: 10px;
   }
+
+  /*
   .card .card-image img {
     height: 100%;
   }
-  /*
+  */
+
   img {
-      height: 250px;
+      height: 100%;
   }
-*/
+
   .border-blk {
     border: 1px solid black;
     border-radius: 2px;
