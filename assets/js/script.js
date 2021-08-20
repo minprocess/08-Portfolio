@@ -62,7 +62,7 @@ cardHtml = function (i) {
     html = `<div class="col s12 l4">
     <div class="card">
       <div class="card-image">
-        <a href="${pageNames[i]}"> <img src="./assets/images/${imgNames[i]}.png"></a>
+        <a href="${pageNames[i]}"> <img src="./assets/images/${imgNames[i]}.png" alt="${imgNames[i]}"></a>
       </div>
       <div class="card-content">
         <span class="card-title">${projNames[i]}</span>
